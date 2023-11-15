@@ -1,4 +1,4 @@
 import ./base.nix {
   version = "52.2";
-  sha256 = "184kahhb705yyx0931q4nsqcsy4kwy66asvwp21lh791pwvaz49w";
+  sha256 = "117aaric8kbzplz5zkyfq0la19d7likmfkc3zb5p0qay20923y8n";
 }
