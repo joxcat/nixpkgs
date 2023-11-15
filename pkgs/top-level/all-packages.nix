@@ -22078,6 +22078,9 @@ with pkgs;
 
   hyperscan = callPackage ../development/libraries/hyperscan { };
 
+  icu52 = callPackage (import ../development/libraries/icu/52.nix fetchurl) ({
+    nativeBuildRoot = buildPackages.icu52.override { buildRootOnly = true; };
+  });
   icu58 = callPackage (import ../development/libraries/icu/58.nix fetchurl) ({
     nativeBuildRoot = buildPackages.icu58.override { buildRootOnly = true; };
   });
